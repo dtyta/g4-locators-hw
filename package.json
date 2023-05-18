@@ -57,5 +57,13 @@
   },
   "engines": {
     "node": ">=12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtyta/g4-locators-hw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dtyta/g4-locators-hw/issues"
+  },
+  "homepage": "https://github.com/dtyta/g4-locators-hw#readme"
 }
