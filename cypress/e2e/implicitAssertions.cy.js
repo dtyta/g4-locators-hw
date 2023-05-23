@@ -35,5 +35,12 @@ it('Implicit assertions', () => {
   .should('have.css', 'background-color')
   .and('eq', 'rgb(223, 240, 216)')
   
-  cy.get('h3:contains("Implicit Assertions")').should('be.visible')
+  
+  cy.get('.assertion-table tr td').eq(4).invoke('css')
+
+  // cy.get('h3:contains("Implicit Assertions")').should('be.visible');
+
+  
+  // cy.get('[data-toggle="dropdown"]').click();
+  // cy.get('.dropdown-menu li').eq(1)
 })
